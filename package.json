@@ -1,0 +1,21 @@
+{
+  "name": "restub.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json",
+    "test": "npm run tsc && node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/underscore": "^1.11.5",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "underscore": "^1.13.6",
+    "url-pattern": "^1.0.3"
+  }
+}
